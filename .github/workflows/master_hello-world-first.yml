@@ -53,4 +53,4 @@ jobs:
           app-name: 'hello-world-first'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8725724EADA24C26AF6B9C6EAA74E716 }}
-          package: .
+          package: ./dist/hello
